@@ -14,6 +14,7 @@ import java.net.URLEncoder;
 public class TgbotApplication {
 	public static void main(String[] args) throws IOException {
 		SpringApplication.run(TgbotApplication.class, args);
+
 		String botToken = "5904160373:AAGo7s9C1O7Gmx-BEXOrhci1-X53jD65oak";
 		String chatId = "-1001959408146";
 		String message = "Merhaba, ben telegram botuyum. ";
@@ -26,6 +27,7 @@ public class TgbotApplication {
 		String response = in.readLine();
 		in.close();
 		System.out.println("Mesaj gönderildi: " + message);
+
 	}
 }
 
